@@ -1,3 +1,3 @@
 # it-spk.github.io
 
-<https://it-spk.github.io/index.html>[Project website photograph]
+[Project website photograph][https://it-spk.github.io/index.html]
