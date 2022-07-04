@@ -282,25 +282,25 @@
             </div>
             <div class="row">
                 <div class="contact-form">
-                    <form action="" class="form">
+                    <form action="mail.php" class="form" method="POST">
                         <div class="row">
                             <div class="left input-group">
                                 <label for="">Имя</label>
-                                <input type="text" placeholder="Ваше имя" class="input-control">
+                                <input type="text" placeholder="Ваше имя" class="input-control" name="user_name">
                             </div>
                             <div class="right input-group">
-                                <label for="">Ваш email или телефон</label>
-                                <input type="text" placeholder="Ваш email или телефон" class="input-control">
+                                <label for="">Ваш телефон</label>
+                                <input type="text" placeholder="+ 7 701 000 00 00" class="input-control" name="user_phone">
                             </div>
                         </div>
                         <div class="row">
                             <div class="input-group">
                                 <label for="">Сообщение</label>
-                                <textarea class="input-control" placeholder="Ваше сообщение здесь"></textarea>
+                                <textarea class="input-control" placeholder="Ваше сообщение здесь" name="user_message"></textarea>
                             </div>
                         </div>
                         <div class="form-btn">
-                            <button type="button" class="btn btn-01">Отправить заявку</button>
+                            <button type="submit" class="btn btn-01">Отправить заявку</button>
                         </div>
                     </form>
                 </div>
